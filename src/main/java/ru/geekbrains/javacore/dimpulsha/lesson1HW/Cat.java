@@ -26,15 +26,15 @@ public class Cat implements TeamActivity{
 
     public boolean run (int distance) {
         System.out.println( type +" "+ name + " бежит");
-//        System.out.println("предел = " + runLimit);
-//        System.out.println("задача = " + distance);
+        System.out.println("Мой предел = " + runLimit);
+        System.out.println("Поставлена задача = " + distance);
         return runLimit > distance;
     }
 
     public boolean jump (int height) {
         System.out.println( type +" "+ name + " прыгает");
-//        System.out.println("предел = " + jumpLimit);
-//        System.out.println("задача = " + height);
+        System.out.println("Мой предел = " + jumpLimit);
+        System.out.println("Поставлена задача = " + height);
         return jumpLimit > height;
     }
 
@@ -45,10 +45,10 @@ public class Cat implements TeamActivity{
 
             switch (obstacleList[i].getKind()) {
                 case "Wall": result = jump(obstacleList[i].getLimit());
-//                    System.out.println(result);
+                    System.out.println("Результат выполнения задачи: " + result);
                     break;
                 case "RunningTrack": result =  run(obstacleList[i].getLimit());
-//                   System.out.println(result);
+                    System.out.println("Результат выполнения задачи: " + result);
                     break;
                 default: System.out.println("Неизвестное препятствие"); result = false; break;
             }
