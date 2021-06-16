@@ -1,5 +1,6 @@
 # Idea Files
 .idea/*
+_temp/*
 # Compiled class file
 *.class
 
