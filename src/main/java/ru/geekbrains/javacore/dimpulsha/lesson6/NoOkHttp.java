@@ -16,7 +16,7 @@ public class NoOkHttp {
     private static final String FORECAST_TYPE = "daily";
     private static final String FORECAST_PERIOD = "5day";
 
-    private static final String CITY_KEY = "474112_PC";
+    private static final String CITY_KEY = "295212";
     private static final String API_KEY = "x7bHtEmfRTNt6FlFxPzfFyNESAivupMw";
 
     public static void main(String[] args) throws IOException {
