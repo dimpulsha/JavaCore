@@ -33,9 +33,11 @@ public class NoOkHttp {
 
         if (httpURLConnection.getResponseCode() == 200) {
             buffer = new BufferedReader(new InputStreamReader(httpURLConnection.getInputStream()));
+            String responseBody = null;
             String currentLine = null;
             while ((currentLine = buffer.readLine()) != null) {
-                System.out.println(currentLine);
+                responseBody += currentLine;
+                System.out.println(responseBody);
             }
         } else {
             System.out.println("Response code: " + httpURLConnection.getResponseCode());
