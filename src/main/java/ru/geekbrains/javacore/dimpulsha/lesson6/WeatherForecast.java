@@ -4,7 +4,7 @@ import okhttp3.*;
 
 import java.io.IOException;
 
-public class DemoHW {
+public class WeatherForecast {
 
     private static final String HOST = "dataservice.accuweather.com";
     private static final String FORECAST = "forecasts";
@@ -12,8 +12,8 @@ public class DemoHW {
     private static final String FORECAST_TYPE = "daily";
     private static final String FORECAST_PERIOD = "5day";
 
-    private static final String CITY_KEY = "";
-    private static final String API_KEY = "";
+    private static final String CITY_KEY = "474112_PC";
+    private static final String API_KEY = "x7bHtEmfRTNt6FlFxPzfFyNESAivupMw";
 
     public static void main(String[] args) throws IOException {
 
@@ -41,6 +41,5 @@ public class DemoHW {
 
         String responseJson = client.newCall(request).execute().body().string();
         System.out.println(responseJson);
-
     }
 }
