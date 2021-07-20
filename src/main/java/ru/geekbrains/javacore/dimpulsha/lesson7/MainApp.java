@@ -24,8 +24,5 @@ public class MainApp {
        // System.out.println(weatherResponse.toString());
         weatherResponse.getForecastText();
 
-        System.out.println("==========================================================================================");
-//      Задание 8 - сохранить в базу прогноз погоды
-
     }
 }

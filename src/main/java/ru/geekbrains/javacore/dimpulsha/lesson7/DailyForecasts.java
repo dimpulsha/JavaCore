@@ -1,11 +1,20 @@
 package ru.geekbrains.javacore.dimpulsha.lesson7;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 
 public class DailyForecasts {
 
@@ -17,48 +26,6 @@ public class DailyForecasts {
     private WeatherEvent dayWeather;
     @JsonProperty(value = "Night")
     private WeatherEvent nightWeather;
-
-    public DailyForecasts(String date, DayTemperature temperature, WeatherEvent dayWeather, WeatherEvent nightWeather) {
-        this.date = date;
-        this.temperature = temperature;
-        this.dayWeather = dayWeather;
-        this.nightWeather = nightWeather;
-    }
-
-    public DailyForecasts() {
-    }
-
-    public String getDate() {
-        return date;
-    }
-
-    public void setDate(String date) {
-        this.date = date;
-    }
-
-    public DayTemperature getTemperature() {
-        return temperature;
-    }
-
-    public void setTemperature(DayTemperature temperature) {
-        this.temperature = temperature;
-    }
-
-    public WeatherEvent getDayWeather() {
-        return dayWeather;
-    }
-
-    public void setDayWeather(WeatherEvent dayWeather) {
-        this.dayWeather = dayWeather;
-    }
-
-    public WeatherEvent getNightWeather() {
-        return nightWeather;
-    }
-
-    public void setNightWeather(WeatherEvent nightWeather) {
-        this.nightWeather = nightWeather;
-    }
 
     public String getForecastDate() throws ParseException {
         DateFormat dateFormatIn = new SimpleDateFormat("yyyy-MM-dd");

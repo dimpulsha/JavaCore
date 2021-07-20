@@ -1,25 +1,18 @@
 package ru.geekbrains.javacore.dimpulsha.lesson7;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class WeatherEvent {
     @JsonProperty(value = "IconPhrase")
-    public String description;
-
-    public WeatherEvent(String description) {
-        this.description = description;
-    }
-
-    public WeatherEvent() {
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
+    private String description;
 
     @Override
     public String toString() {

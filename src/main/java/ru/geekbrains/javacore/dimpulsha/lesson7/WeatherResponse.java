@@ -1,31 +1,24 @@
 package ru.geekbrains.javacore.dimpulsha.lesson7;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.text.ParseException;
 import java.util.List;
 
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class WeatherResponse {
     private final String city = "Санкт-Петербург";
     @JsonProperty(value = "Headline")
     private Headline headline;
     @JsonProperty(value = "DailyForecasts")
     private List <DailyForecasts> dailyForecastsList;
-
-    public WeatherResponse(Headline headline) {
-        this.headline = headline;
-    }
-
-    public WeatherResponse() {
-    }
-
-    public Headline getHeadline() {
-        return headline;
-    }
-
-    public void setHeadline(Headline headline) {
-        this.headline = headline;
-    }
 
     @Override
     public String toString() {
