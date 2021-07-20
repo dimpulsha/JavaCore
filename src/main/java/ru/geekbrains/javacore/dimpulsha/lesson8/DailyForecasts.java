@@ -53,4 +53,5 @@ public class DailyForecasts {
                 ", nightWeather=" + nightWeather +
                 '}';
     }
+
 }

@@ -13,7 +13,7 @@ import lombok.Setter;
 public class TemperatureItem {
 
     @JsonProperty(value = "Value")
-    private float value;
+    private String value;
     @JsonProperty(value = "Unit")
     private String unit;
     @JsonProperty(value = "UnitType")

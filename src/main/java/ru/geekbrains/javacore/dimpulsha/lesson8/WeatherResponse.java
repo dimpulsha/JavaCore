@@ -18,7 +18,7 @@ public class WeatherResponse {
     @JsonProperty(value = "Headline")
     private Headline headline;
     @JsonProperty(value = "DailyForecasts")
-    private List <DailyForecasts> dailyForecastsList;
+    private List<DailyForecasts> dailyForecastsList;
 
     @Override
     public String toString() {
@@ -29,13 +29,15 @@ public class WeatherResponse {
                 '}';
     }
 
-   public void getForecastText () {
-       dailyForecastsList.forEach(item -> {
-           try {
-               System.out.println( "В городе " + city + " " + item.getForecastText());
-           } catch (ParseException e) {
-               e.printStackTrace();
-           }
-       });
-   };
+    public void getForecastText() {
+        dailyForecastsList.forEach(item -> {
+            try {
+                System.out.println("В городе " + city + " " + item.getForecastText());
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+        });
+    };
+
+
 }
