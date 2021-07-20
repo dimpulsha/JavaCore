@@ -1,24 +1,21 @@
-package ru.geekbrains.javacore.dimpulsha.lesson6;
+package ru.geekbrains.javacore.dimpulsha.lesson7;
 
 import okhttp3.*;
 
 import java.io.IOException;
 
-public class WeatherForecast {
+public class FetchWeatherForecast {
 
     private static final String HOST = "dataservice.accuweather.com";
     private static final String FORECAST = "forecasts";
     private static final String API_VERSION = "v1";
     private static final String FORECAST_TYPE = "daily";
     private static final String FORECAST_PERIOD = "5day";
-
-    private static final String CITY_KEY = "474112_PC";
+    private static final String CITY_KEY = "295212";
     private static final String API_KEY = "x7bHtEmfRTNt6FlFxPzfFyNESAivupMw";
 
-    public static void main(String[] args) throws IOException {
-
+    public static String getWeather () throws IOException {
         OkHttpClient client = new OkHttpClient();
-
         HttpUrl url = new HttpUrl.Builder()
                 .scheme("http")
                 .host(HOST)
@@ -32,15 +29,15 @@ public class WeatherForecast {
                 .addQueryParameter("metric", "true")
                 .build();
 
-        System.out.println(url.toString());
-
         Request request = new Request.Builder()
                 .addHeader("accept", "application/json")
                 .url(url)
                 .build();
 
-        String responseJson = client.newCall(request).execute().body().string();
-        System.out.println(responseJson);
+        ResponseBody responseJsonBody = client.newCall(request).execute().body();
+        String responseJson =  responseJsonBody.string();
+        responseJsonBody.close();
+        return responseJson;
 
     }
 }

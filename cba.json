@@ -1,0 +1,176 @@
+{
+  "Headline": {
+    "EffectiveDate": "2021-07-18T13:00:00+03:00",
+    "EffectiveEpochDate": 1626602400,
+    "Severity": 5,
+    "Text": "Воскресенье, день - Воскресенье, вечер: грозы в регионе",
+    "Category": "thunderstorm",
+    "EndDate": "2021-07-19T01:00:00+03:00",
+    "EndEpochDate": 1626645600,
+    "MobileLink": "http://www.accuweather.com/ru/ru/saint-petersburg/295212/extended-weather-forecast/295212?unit=c",
+    "Link": "http://www.accuweather.com/ru/ru/saint-petersburg/295212/daily-weather-forecast/295212?unit=c"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2021-07-15T07:00:00+03:00",
+      "EpochDate": 1626321600,
+      "Temperature": {
+        "Minimum": {
+          "Value": 19.6,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 31.4,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 13,
+        "IconPhrase": "Преимущественно облачно с ливнями",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 34,
+        "IconPhrase": "Преимущественно ясно",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/ru/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=1&unit=c",
+      "Link": "http://www.accuweather.com/ru/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=1&unit=c"
+    },
+    {
+      "Date": "2021-07-16T07:00:00+03:00",
+      "EpochDate": 1626408000,
+      "Temperature": {
+        "Minimum": {
+          "Value": 16.7,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 28.8,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 2,
+        "IconPhrase": "Преимущественно ясно",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 34,
+        "IconPhrase": "Преимущественно ясно",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/ru/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=2&unit=c",
+      "Link": "http://www.accuweather.com/ru/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=2&unit=c"
+    },
+    {
+      "Date": "2021-07-17T07:00:00+03:00",
+      "EpochDate": 1626494400,
+      "Temperature": {
+        "Minimum": {
+          "Value": 15.8,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 26.9,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 2,
+        "IconPhrase": "Преимущественно ясно",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 33,
+        "IconPhrase": "Ясно",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/ru/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=3&unit=c",
+      "Link": "http://www.accuweather.com/ru/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=3&unit=c"
+    },
+    {
+      "Date": "2021-07-18T07:00:00+03:00",
+      "EpochDate": 1626580800,
+      "Temperature": {
+        "Minimum": {
+          "Value": 16.2,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 27.8,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 16,
+        "IconPhrase": "Преимущественно облачно, гроза",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Moderate"
+      },
+      "Night": {
+        "Icon": 36,
+        "IconPhrase": "Переменная облачность",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/ru/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=4&unit=c",
+      "Link": "http://www.accuweather.com/ru/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=4&unit=c"
+    },
+    {
+      "Date": "2021-07-19T07:00:00+03:00",
+      "EpochDate": 1626667200,
+      "Temperature": {
+        "Minimum": {
+          "Value": 13.2,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 24.3,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 2,
+        "IconPhrase": "Преимущественно ясно",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Облачно с прояснениями",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/ru/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=5&unit=c",
+      "Link": "http://www.accuweather.com/ru/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=5&unit=c"
+    }
+  ]
+}

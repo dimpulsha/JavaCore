@@ -1,0 +1,170 @@
+{
+  "Headline": {
+    "EffectiveDate": "2021-07-16T07:00:00+04:00",
+    "EffectiveEpochDate": 1626404400,
+    "Severity": 3,
+    "Text": "Пятница - Вторник: повышение температуры",
+    "Category": "heat",
+    "EndDate": "2021-07-20T19:00:00+04:00",
+    "EndEpochDate": 1626793200,
+    "MobileLink": "http://www.accuweather.com/ru/ru//446805/extended-weather-forecast/474112_pc?unit=c",
+    "Link": "http://www.accuweather.com/ru/ru//446805/daily-weather-forecast/474112_pc?unit=c"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2021-07-15T07:00:00+04:00",
+      "EpochDate": 1626318000,
+      "Temperature": {
+        "Minimum": {
+          "Value": 17.4,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 32.2,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 3,
+        "IconPhrase": "Небольшая облачность",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Облачно с прояснениями",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/ru/ru//446805/daily-weather-forecast/474112_pc?day=1&unit=c",
+      "Link": "http://www.accuweather.com/ru/ru//446805/daily-weather-forecast/474112_pc?day=1&unit=c"
+    },
+    {
+      "Date": "2021-07-16T07:00:00+04:00",
+      "EpochDate": 1626404400,
+      "Temperature": {
+        "Minimum": {
+          "Value": 18.6,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 32.7,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 4,
+        "IconPhrase": "Переменная облачность",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 34,
+        "IconPhrase": "Преимущественно ясно",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/ru/ru//446805/daily-weather-forecast/474112_pc?day=2&unit=c",
+      "Link": "http://www.accuweather.com/ru/ru//446805/daily-weather-forecast/474112_pc?day=2&unit=c"
+    },
+    {
+      "Date": "2021-07-17T07:00:00+04:00",
+      "EpochDate": 1626490800,
+      "Temperature": {
+        "Minimum": {
+          "Value": 20.4,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 34.3,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 2,
+        "IconPhrase": "Преимущественно ясно",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 33,
+        "IconPhrase": "Ясно",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/ru/ru//446805/daily-weather-forecast/474112_pc?day=3&unit=c",
+      "Link": "http://www.accuweather.com/ru/ru//446805/daily-weather-forecast/474112_pc?day=3&unit=c"
+    },
+    {
+      "Date": "2021-07-18T07:00:00+04:00",
+      "EpochDate": 1626577200,
+      "Temperature": {
+        "Minimum": {
+          "Value": 19.8,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 34.1,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 3,
+        "IconPhrase": "Небольшая облачность",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 34,
+        "IconPhrase": "Преимущественно ясно",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/ru/ru//446805/daily-weather-forecast/474112_pc?day=4&unit=c",
+      "Link": "http://www.accuweather.com/ru/ru//446805/daily-weather-forecast/474112_pc?day=4&unit=c"
+    },
+    {
+      "Date": "2021-07-19T07:00:00+04:00",
+      "EpochDate": 1626663600,
+      "Temperature": {
+        "Minimum": {
+          "Value": 21.7,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 35.7,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 30,
+        "IconPhrase": "Жарко",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 34,
+        "IconPhrase": "Преимущественно ясно",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/ru/ru//446805/daily-weather-forecast/474112_pc?day=5&unit=c",
+      "Link": "http://www.accuweather.com/ru/ru//446805/daily-weather-forecast/474112_pc?day=5&unit=c"
+    }
+  ]
+}

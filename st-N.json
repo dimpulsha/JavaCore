@@ -1,0 +1,47 @@
+[
+  {
+    "firstName": "Ivan",
+    "secondName": "Ivanov",
+    "ade": 48,
+    "completedCourse": [
+      {
+        "id": 1,
+        "title": "Java-1"
+      },
+      {
+        "id": 2,
+        "title": "Java-2"
+      }
+    ]
+  },
+  {
+    "firstName": "Ivan",
+    "secondName": "Ivanov",
+    "ade": 48,
+    "completedCourse": [
+      {
+        "id": 1,
+        "title": "Java-1"
+      },
+      {
+        "id": 2,
+        "title": "Java-2"
+      }
+    ]
+  },
+  {
+    "firstName": "Ivan",
+    "secondName": "Ivanov",
+    "ade": 48,
+    "completedCourse": [
+      {
+        "id": 1,
+        "title": "Java-1"
+      },
+      {
+        "id": 2,
+        "title": "Java-2"
+      }
+    ]
+  }
+]
