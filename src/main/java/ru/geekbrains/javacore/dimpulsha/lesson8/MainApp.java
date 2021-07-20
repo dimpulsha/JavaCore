@@ -1,12 +1,9 @@
-package ru.geekbrains.javacore.dimpulsha.lesson7;
+package ru.geekbrains.javacore.dimpulsha.lesson8;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import java.io.File;
 import java.io.IOException;
-import java.text.DateFormat;
-import java.sql.*;
 
 public class MainApp {
     public static void main(String[] args) throws IOException {

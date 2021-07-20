@@ -1,4 +1,4 @@
-package ru.geekbrains.javacore.dimpulsha.lesson7;
+package ru.geekbrains.javacore.dimpulsha.lesson8;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
