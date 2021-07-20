@@ -201,7 +201,6 @@ public class MainApp {
                 }
             });
             int[] result = insertWeather.executeBatch();
-//            System.out.println(result.toString());
             insertWeather.close();
     }
 
